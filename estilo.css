@@ -1,0 +1,552 @@
+/*css */
+
+#menu
+{text-align:center; text-decoration:none; color:#FFEBB2;}
+.menu {
+    position: relative;
+    display: inline-block;
+}
+
+.menu-content {
+    display: none;
+    position: absolute;
+    background-color: #02AAFF;
+    min-width: 0px;
+    z-index: 1;
+}
+.menu-content ul li a
+{
+	text-align:center;
+	text-decoration:none;
+	color:#000;}
+
+.menu-content ul li a:hover		
+{
+	background-color:#3cf;
+ 	color:#fff;}
+
+.menu:hover .menu-content {
+    display: block;
+}
+a:hover		
+{background-color:#3CF; color:#00C}
+body
+{margin:0;background-image:url(img/fundo.png);
+background-color:#FFEBB2;
+font-family:Sans Serif,Calibri, Arial Black;
+font-size:100%
+}
+#logo
+{	border:0px solid #FFEBB2; 
+    margin: 0px auto;
+    width: 20%;
+    height: 20%;
+    background-image:url(img/logo.png) ;
+    background-repeat: no-repeat;
+}
+#FAQ	
+{
+	background: url(img/rodape.svg) bottom repeat-x;
+	background-position:bottom;
+	height: 750px;
+	width: 70%;
+	font-size:20px;
+	background-size:200px;
+	background-color: #f0f0f0;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;	
+}
+
+#menu ul	
+{margin:0;background-color: #02AAFF;list-style: none;}
+#menu ul li	
+{display: inline;}
+#menu ul li a	
+{padding: 12px 20px;display:inline-block	; color: black; text-decoration : none;}
+#menu ul li a:hover	
+{color:white ;}
+#conteudo	
+{
+	
+	height: 750px;
+	width: 70%;
+	background-color: #F0F0F0;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+#creditos
+{
+	
+	height: 1800px;
+	width: 70%;
+	background-color: #F0F0F0;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+#casaejardim
+{
+	height: 950px;
+	width: 70%;
+	background-color: #F0F0F0;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+#dicas
+{
+	height: 1500px;
+	width: 70%;
+	background-color: #F0F0F0;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+#empresa	
+{
+	
+	height: 550px;
+	width: 70%;
+	background-color: #F0F0F0;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+#home	
+{
+	
+	height: 1033px;
+	width: 70%;
+	background-color: #F0F0F0;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+#rodaPe
+{	height: 250px;
+	width: 100%;
+	background-color: #02AAFF;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	clear:both; }
+#social
+{
+	height: 30%;
+	width: 3%;
+	background-color: #FFEBB2;
+	float: right;
+	position: fixed;
+	visibility: visible;
+	z-index: auto;
+	top: 50%;
+	right: 5%;
+	
+	}
+#redes 
+{	
+	float : left ;
+	height : 20% ;
+	margin : 0px 0px 0px 0px;
+	text-align :left;
+	width  : 100%;
+		}
+		
+#mapa
+{	float:left;
+	margin-top:30px;
+	margin-left: 15%;
+	height:70%;
+	width:35%;
+	background-color:#02AAFF;
+	clear:left;}
+	
+#hoverrede:
+{	text-align:center; text-decoration:none; color:black;
+	}
+	
+#hoverrede: hover
+{	background-color:#3CF; color:#00C;}
+
+#links
+{	text-decoration:none;
+	color:black;
+	float:left;
+}
+
+#contato
+{	float:left;
+	margin-top:00px;
+	margin-left: 50%;
+	height:10%;
+	width:30%;
+	background-color:#02AAFF;
+	text-align:right;
+	clear: right;}
+
+#endereço
+{	float:right;
+	margin-top:35px;
+	margin-right: 15%;
+	height:35%;
+	width:30%;
+	background-color:#02AAFF;
+	text-align:right;}
+	
+#baner
+{	height:50%;
+	width:100%;
+	float : left ;
+	margin-left:0px;
+	margin-top:0px;
+	}
+	
+#emailRecebido
+{	width:100%;
+	height:100%;
+	}
+	
+h1 { 
+	text-align:center;
+	text-decoration:underline;
+	font-size:50px;}
+	
+h2 {
+	text-align:center}
+	
+p {
+	text-align:justify;
+	font-size:18px;
+	margin:0 30px 0 30px;
+	}	
+#trabalhe{
+	height: 450px;
+	width:92%;
+	margin-left:30px;
+	}
+#trabalheConosco
+{
+	height: 1000px;
+	width: 70%;
+	background-color: #F0F0F0;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	}	
+#formulario{
+	
+	width:30%;
+	margin-left:60px;
+	float:left;
+	}	
+	
+#conteudo2 {
+	
+	float:right;
+	width:50%;
+	height:50%;}	
+
+.duvidaImg
+{
+	float:left;
+}
+.duvidaTexto
+{
+	clear:both;
+}
+#dufmenu
+{
+	clear:both;
+}
+#dufmenu a
+{
+	color:#000;
+	text-decoration:none;
+}
+#duvidas	
+{
+	
+	height: 1200px;
+	width: 70%;
+	background-color: #F0F0F0;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+
+#duvidasLinks
+{
+		margin-left:50px;
+	}
+#duvidas a
+{
+	text-decoration:none;
+	color:#000;
+}
+
+#tituloduf
+{
+	
+	background: url(img/degradeduf.png) top repeat-x;
+	background-size:5px;
+	height: 1200px;
+	width: 100%;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+
+	}
+#titulotrab
+{
+	
+	background: url(img/degradeduf.png) top repeat-x;
+	background-size:5px;
+	height: 500px;
+	width: 100%;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+
+	}
+
+#tituloduf1
+{
+	
+	background: url(img/degradeduf.png) top repeat-x;
+	background-size:5px;
+	height: 1200px;
+	width: 100%;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+
+	}
+#tituloduf1 h3
+{
+	margin-left:5%;
+	margin-right:5%;
+	}
+#tituloduf h3
+{
+	font-size:30px;
+	margin-left:10%;
+	margin-right:5%;
+	}
+#tituloduf1 p
+{
+	margin-left:8%;
+	margin-right:5%;
+	}
+#tituloduf p
+{
+	margin-left:5%;
+	margin-right:5%;
+	}
+#titulodufg
+{
+	
+	background: url(img/degradeduf.png) top repeat-x;
+	background-size:5px;
+	height: 250px;
+	width: 100%;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+
+	}
+#dufcao 
+{
+	background: url(img/rodape.svg) bottom repeat-x;
+	background-size:200px;
+	height: 1750px;
+	width: 70%;
+	background-color: #F0F0F0;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+
+}
+#dufcao p
+{
+	margin-left:5%;
+	margin-right:5%;
+	}
+#dufcao h3
+{
+	font-size:30px;
+	margin-left:10%;
+	margin-right:5%;
+	}
+#duvidasd p
+{
+	
+	text-align:center;
+	}
+#duvidasd h3
+{
+	text-align:center;
+	}
+#dufpeixe
+{
+	background: url(img/rodape.svg) bottom repeat-x;
+	background-size:200px;
+	height: 1200px;
+	width: 70%;
+	background-color: #F0F0F0;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	}
+#dufgato p
+{
+	margin-left:5%;
+	margin-right:5%;
+	}
+#dufgato h3
+{
+	font-size:30px;
+	margin-left:10%;
+	margin-right:5%;
+	}
+#dufgato 
+{
+	background: url(img/rodape.svg) bottom repeat-x;
+	background-size:200px;
+	height: 1600px;
+	width: 70%;
+	background-color: #F0F0F0;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	}
+#dufpeixe p
+{
+	margin-left:5%;
+	margin-right:5%;
+	}
+#dufpeixe h3
+{
+	font-size:30px;
+	margin-left:10%;
+	margin-right:5%;
+	}
+#le	
+{
+	height: 3950px;
+	width: 70%;
+	background-color: #F0F0F0;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+#tabela{
+	font-size:15px;
+}	
+#tabela th{
+	background-color:#02AAFF;list-style: none;}
+#tabela td a	
+{padding: 12px 20px;display:inline-block; color: black; text-decoration : none;}
+#tabela td a:hover	
+{color:white ;}
+.margem{
+	margin-left:30px;
+	margin-right:30px;
+	
+}
+#promo {
+	
+	height:950px;
+	width: 70%;
+	background-color: #F0F0F0;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	}
+	
+#promo1 { 
+background: url(img/degradeduf.png) top repeat-x;
+	background-size:5px;
+	height: 250px;
+	width: 100%;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}	
+#servhot	
+{
+	
+	height: 800px;
+	width: 70%;
+	background-color: #F0F0F0;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+
+#form .btn{
+	text-align:center;
+	text-decoration:none;
+	color:#000;
+	width:150px;
+	padding:12px;
+	background:url(img/btn1.png);
+	font-weight:bold;
+	
+}
+#form .btn:hover{
+	background-image:url(img/btn.png);
+	color:white;
+}
+
+#form input{
+	
+	font:16px "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	color:#333;
+	margin-left:5%;
+}
+
+#form .btnduf{
+	text-align:center;
+	text-decoration:none;
+	color:#000;
+	width:350px;
+	padding:12px;
+	background:url(img/btn1.png);
+	font-weight:bold;
+	
+}
+#form .btnduf:hover{
+	background-image:url(img/btn.png);
+	color:white;
+}
+
+#f 
+{
+	background: url(img/rodape.svg) bottom repeat-x;
+	background-size:200px;
+	}
+#duvidasP
+{
+	text-align:center;
+	}
+	
+	
