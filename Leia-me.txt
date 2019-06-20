@@ -1,0 +1,11 @@
+	Trabalho elaborado no primeiro semestre de 2018 com supervisão do professor Carlos Majer “twitter: @cmajer”
+ (matéria de Aplicação para internet), que tinha como objetivo criar um site comercial para um pet shop, utilizando
+ tecnologias como HTML e CSS.
+
+	**Para uma prévia do conteúdo há uma imagem da homepage ”index.png”.**
+
+	Recomendo que abra o conteúdo pelo arquivo index.html, para que tenha uma melhor experiencia do conteúdo do 
+site (pois o site pode apresentar problemas ou falta de funcionalidades se aberto a partir de outros arquivos).
+
+	Todas as imagens foram retiradas de bancos de dados de imagens publicas (ver mais na aba de créditos do
+ próprio site). 
